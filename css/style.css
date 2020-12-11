@@ -4,30 +4,17 @@
     color: #666;
 }
 
-
-/* Header/logo tiêu đề */
-
-header {
-    padding: 5px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
-    height: 120px;
-}
-
-
 /* Tăng kích thước font chữ cho header */
-
-header h1 {
-    font-size: 40px;
+h1
+{
+    text-align: center;
+    color: rgb(177, 43, 43);
 }
-
-header h1,
-h2,
-h3 {
-    color: white;
+h2
+{
+    text-align: center;
+    color: black;
 }
-
 section {
     padding: 20px;
 }
@@ -38,17 +25,19 @@ ul {
     padding: 0;
     overflow: hidden;
     border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+    background-color: #240f0f;
 }
 
 li {
     float: left;
+    padding: 5px;
+  
 }
 
 li a,
 .dropbtn {
     display: inline-block;
-    color: #666;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -57,7 +46,7 @@ li a,
 li a:hover:not(.active),
 .dropdown:hover .dropbtn {
     color: white;
-    background-color: #4CAF50;
+    background-color: #1ca717;
 }
 
 li.dropdown {
@@ -98,4 +87,68 @@ li.dropdown {
 
 .hideable-section:first-of-type {
     display: block;
+}
+h1
+{
+    color: white;
+}
+p{
+    list-style: none;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+p:hover
+{
+    color: yellow;
+}
+a{
+    text-decoration: none;
+}
+.footerr p
+{
+    margin-left: 20px;
+    text-align:justify;
+    color: white;
+    font-size: small;
+}
+.footerr p:hover
+{
+    color: yellow;
+}
+.footerr a
+{
+    text-align: center;
+}
+.gp h3
+{
+    font-size: 18px;
+    color: white;
+}
+.copyright h3
+{
+    color: white;
+    font-size: 18px;
+}
+h4
+{
+    color: white;
+}
+.cgdl 
+{
+    background: rgb(36, 36, 25);
+}
+.cgdl a p
+{
+    color: white;
+}
+.cgdl a p:hover
+{
+    color: blue;
+}
+.mail p
+{
+    color: black;
+    font-size: 15px;
+    text-align: center;
 }
